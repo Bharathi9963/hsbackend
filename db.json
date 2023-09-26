@@ -1,11 +1,335 @@
 {
-  "hospitals":[],
-  "patients":[],
-    "posts": [
-      { "id": 1, "title": "json server", "author": "Bharathi" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "hospitals": [
+    {
+      "hospitalName": "Yashoda",
+      "image": "https://medgatetoday.com/wp-content/uploads/2021/08/Yashoda-Hospitals.jpg",
+      "area": "secundrabad",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "icu",
+          "price": "60000"
+        },
+        {
+          "bedType": "luxury",
+          "price": "80000"
+        },
+        {
+          "bedType": "general",
+          "price": "10000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "general1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "general2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "general3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "general4"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "icu",
+          "bedprice": "50000",
+          "patients": [],
+          "bedId": "icu1"
+        },
+        {
+          "bedStatus": "occupied",
+          "bedtype": "icu",
+          "bedprice": "50000",
+          "patients": [
+            {
+              "useremail": "saddabharathi9492@gmail.com",
+              "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFhMDhlN2M3ODNkYjhjOGFjNGNhNzJhZjdmOWRkN2JiMzk4ZjE2ZGMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoic2FkZGEgQmhhcmF0aGkiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSTN3bG1TS3VraDNMeENFZC1MeWRqV0t4cURYV3RUejVrRUltMzhQWUhweFE9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9zcGl0YWxhcHAtOGRjZTUiLCJhdWQiOiJob3NwaXRhbGFwcC04ZGNlNSIsImF1dGhfdGltZSI6MTY5NTQ1NjgyMywidXNlcl9pZCI6Im92OW5wdHpsY0lRcERDY3AxdmNRa3EzWmh3RDIiLCJzdWIiOiJvdjlucHR6bGNJUXBEQ2NwMXZjUWtxM1pod0QyIiwiaWF0IjoxNjk1NDU2ODIzLCJleHAiOjE2OTU0NjA0MjMsImVtYWlsIjoic2FkZGFiaGFyYXRoaTk0OTJAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMTA3NDE5MzIwNDg3MDE5MTIyMDkiXSwiZW1haWwiOlsic2FkZGFiaGFyYXRoaTk0OTJAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.PZsRJrtJPfCexyn0Tnt6Hx2T4us651lEGXvMaeeCXf54y2meuyj4ME5zYcvSYp1PTcgigBLR4aKigyIRxdaSKorCcub9Cfn99yhYzR6ffKqOn-75P28f8EdnF92-l_7_EiLbZfaFvTgpbxfOH_jejBt27ojAfwdBhhXomrxVhSh_ZhrZbgq5fwkebRD-E1fpzvsShm--HhLen72HGw5mk-NVJbWAq6Xe-6U4I8K1mpoopIAnoApi4vlRRtAXEJP4c9zkk4Fomwbk69BOcrrwCUfqqREqnRWUxo1lHZlvFQg97Qd89VRu7URe9W8QUKQCUAa-XnUSpxpe6pwQXz9TTg"
+            }
+          ],
+          "bedId": "icu2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "luxury1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "luxury2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "luxury3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "luxury4"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "hospitalName": "Apolo",
+      "image": "https://kolkata.apollohospitals.com/wp-content/themes/apollo/images/amsh-logo-head-new.svg",
+      "area": "madhapur",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "general",
+          "price": "20000"
+        },
+        {
+          "bedType": "icu",
+          "price": "40000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "10000",
+          "patients": [],
+          "bedId": "general1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "10000",
+          "patients": [],
+          "bedId": "general2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "10000",
+          "patients": [],
+          "bedId": "general3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "luxury1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "luxury2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "luxury3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "luxury",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "luxury4"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "hospitalName": "kims",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/KIMS_Main_Logo_Col-01.jpg",
+      "area": "hyd",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "icu",
+          "price": "40000"
+        },
+        {
+          "bedType": "firstclass",
+          "price": "60000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "firstclass",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "firstclass1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "firstclass",
+          "bedprice": "80000",
+          "patients": [],
+          "bedId": "firstclass2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "firstclass",
+          "bedprice": "15000",
+          "patients": [],
+          "bedId": "firstclass3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "firstclass",
+          "bedprice": "15000",
+          "patients": [],
+          "bedId": "firstclass4"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "firstclass",
+          "bedprice": "15000",
+          "patients": [],
+          "bedId": "firstclass5"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "icu",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "icu1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "icu",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "icu2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "icu",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "icu3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "icu",
+          "bedprice": "60000",
+          "patients": [],
+          "bedId": "icu4"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "hospitalName": "Medicover",
+      "image": "https://www.medicover.pl/Data/Thumbs/storage_files/2017/11/10/8d334aa9-c336-4235-814d-fc742f7fc9f0/5.png?preset=376x250",
+      "area": "madhapur",
+      "reviews": [],
+      "bedTypes": [
+        {
+          "bedType": "general",
+          "price": "10000"
+        },
+        {
+          "bedType": "icu",
+          "price": "50000"
+        },
+        {
+          "bedType": "suit",
+          "price": "100000"
+        }
+      ],
+      "beds": [
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "10000",
+          "patients": [],
+          "bedId": "general1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "general",
+          "bedprice": "10000",
+          "patients": [],
+          "bedId": "general2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "100000",
+          "patients": [],
+          "bedId": "suit1"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "100000",
+          "patients": [],
+          "bedId": "suit2"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "100000",
+          "patients": [],
+          "bedId": "suit3"
+        },
+        {
+          "bedStatus": "open",
+          "bedtype": "suit",
+          "bedprice": "100000",
+          "patients": [],
+          "bedId": "suit4"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "patients": [],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json server",
+      "author": "Bharathi"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
